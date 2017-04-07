@@ -35,6 +35,7 @@ PLScanViewControlerDelegate
     self.navigationItem.rightBarButtonItem = addButton;
     
     self.objects = [NSMutableArray new];
+    [self.objects addObject:@"rtmp://live.hkstv.hk.lxdns.com/live/hks"];
 }
 
 - (void)didReceiveMemoryWarning {
